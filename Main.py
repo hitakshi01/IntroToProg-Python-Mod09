@@ -38,7 +38,6 @@ try:
     while True:
         IO.EmployeeIO.print_menu_items()
         userChoice = IO.EmployeeIO.input_menu_options()
-        print("here and user choice is" + userChoice)
         if userChoice == "1":
             IO.EmployeeIO.print_current_list_items(lstOfEmployeeObjects)
         elif userChoice == "2":
